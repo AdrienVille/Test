@@ -10,7 +10,8 @@ import statsmodels.api as sm
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
-
+import os
+import scipy
 
 def parse_excel(contents, filename, header=0):
     """Parse uploaded Excel file into a DataFrame."""

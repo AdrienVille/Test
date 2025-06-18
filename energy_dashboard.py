@@ -13,6 +13,7 @@ from reportlab.lib.utils import ImageReader
 import os
 import scipy
 
+
 def parse_excel(contents, filename, header=0):
     """Parse uploaded Excel file into a DataFrame."""
     content_type, content_string = contents.split(',')
